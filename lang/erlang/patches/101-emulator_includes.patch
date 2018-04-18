@@ -1,6 +1,6 @@
---- a/erts/emulator/Makefile.in
-+++ b/erts/emulator/Makefile.in
-@@ -682,7 +682,7 @@ $(OBJDIR)/beam_emu.o: beam/beam_emu.c
+--- a/erts/emulator/Makefile.in	2018-03-22 01:33:28.000000000 +0800
++++ b/erts/emulator/Makefile.in	2018-04-18 21:32:51.853832265 +0800
+@@ -705,7 +705,7 @@
  endif
  
  $(OBJDIR)/%.o: beam/%.c
